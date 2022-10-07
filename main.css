@@ -131,3 +131,9 @@ form button:hover {
 input:focus, textarea:focus {
     outline-color: #45B2F5;
 }
+
+footer {
+    background-color: #45B2F5;
+    color: #F2F2F2;
+    padding: 16px 0;
+}
