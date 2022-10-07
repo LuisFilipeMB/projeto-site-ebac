@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+header,
+section h2 {
+    font-family: 'Silkscreen', cursive;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 header{
     padding: 16x 0;
     background-color: #45B2F5;
@@ -13,7 +23,7 @@ header{
 header nav li {
     display: inline;
     margin-left: 16px;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 header nav li a {
@@ -28,10 +38,41 @@ header nav li a {
     margin: 0 auto;
 }
 
-header .container {
+header .container,
+section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.brands-list img {
+    height: 32px;
+}
+
+.brands-list li {
+    display: inline;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: #45B2F5;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.game-logo {
+    margin-right: 32px;
+    height: 500px;
 }
 
 
